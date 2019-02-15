@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1546371952284278}
+  m_IsPrefabParent: 1
+--- !u!1 &1546371952284278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4183801255217346}
+  - component: {fileID: 114056073363789208}
+  m_Layer: 0
+  m_Name: WaveManager _Doesnt Count UI_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4183801255217346
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1546371952284278}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 56.2, y: 27.292414, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114056073363789208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1546371952284278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6130e57620420d409c11fecefdaacbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - name: 'Round 1 '
+    enemy: {fileID: 4528306676131692, guid: 874d13a99d99dcb4f8b70e57fc068bfb, type: 2}
+    count: 5
+    Spawnrate: 0.3
+  - name: Round 2
+    enemy: {fileID: 4528306676131692, guid: 874d13a99d99dcb4f8b70e57fc068bfb, type: 2}
+    count: 7
+    Spawnrate: 0.4
+  - name: Round 3
+    enemy: {fileID: 4528306676131692, guid: 874d13a99d99dcb4f8b70e57fc068bfb, type: 2}
+    count: 9
+    Spawnrate: 0.5
+  - name: Round 4
+    enemy: {fileID: 4528306676131692, guid: 874d13a99d99dcb4f8b70e57fc068bfb, type: 2}
+    count: 11
+    Spawnrate: 0.6
+  spawnPoints:
+  - {fileID: 0}
+  ZombieM: {fileID: 1639104325453856, guid: 874d13a99d99dcb4f8b70e57fc068bfb, type: 2}
+  time_between_waves: 5
+  waveCountdown: 0
