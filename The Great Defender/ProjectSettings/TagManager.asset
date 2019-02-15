@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Human
+  - Bullet
+  - NPC_Chaser
+  - Critter
+  - NPC_Bullet
+  - Drop_Off_Zone
+  - Ground
+  - NPC_Abducter
+  - UFO
+  - Turbo_Shot_Bar
+  - Wave_Text
+  - Human_Hold_Place
+  - NPC_Fire_Position
+  - Gameover
+  - inGame_UI
+  - StartMenu
+  - Life_02
+  - Life_03
+  - Life_01
+  - Score_Text
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - NPC
+  - Humanoid
+  - Critter
+  - MiniMap
+  - Environment
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
